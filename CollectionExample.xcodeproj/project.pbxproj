@@ -29,6 +29,7 @@
 		816E10E018BF1BBE000F5CA2 /* search_field@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 816E10CC18BF1BBE000F5CA2 /* search_field@2x.png */; };
 		816E10E118BF1BBE000F5CA2 /* search_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 816E10CD18BF1BBE000F5CA2 /* search_text.png */; };
 		816E10E218BF1BBE000F5CA2 /* search_text@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 816E10CE18BF1BBE000F5CA2 /* search_text@2x.png */; };
+		816E10E518C067D1000F5CA2 /* FlickrPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 816E10E418C067D1000F5CA2 /* FlickrPhotoCell.m */; };
 		F911FBB118BA2AF500B753A8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F911FBB018BA2AF500B753A8 /* Foundation.framework */; };
 		F911FBB318BA2AF500B753A8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F911FBB218BA2AF500B753A8 /* CoreGraphics.framework */; };
 		F911FBB518BA2AF500B753A8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F911FBB418BA2AF500B753A8 /* UIKit.framework */; };
@@ -81,6 +82,8 @@
 		816E10CC18BF1BBE000F5CA2 /* search_field@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_field@2x.png"; sourceTree = "<group>"; };
 		816E10CD18BF1BBE000F5CA2 /* search_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search_text.png; sourceTree = "<group>"; };
 		816E10CE18BF1BBE000F5CA2 /* search_text@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search_text@2x.png"; sourceTree = "<group>"; };
+		816E10E318C067D1000F5CA2 /* FlickrPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlickrPhotoCell.h; sourceTree = "<group>"; };
+		816E10E418C067D1000F5CA2 /* FlickrPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlickrPhotoCell.m; sourceTree = "<group>"; };
 		F911FBAD18BA2AF500B753A8 /* CollectionExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F911FBB018BA2AF500B753A8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		F911FBB218BA2AF500B753A8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -190,6 +193,8 @@
 				F911FBC518BA2AF500B753A8 /* Main_iPad.storyboard */,
 				F911FBC818BA2AF500B753A8 /* ViewController.h */,
 				F911FBC918BA2AF500B753A8 /* ViewController.m */,
+				816E10E318C067D1000F5CA2 /* FlickrPhotoCell.h */,
+				816E10E418C067D1000F5CA2 /* FlickrPhotoCell.m */,
 				F911FBCB18BA2AF500B753A8 /* Images.xcassets */,
 				F911FBB718BA2AF500B753A8 /* Supporting Files */,
 			);
@@ -344,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F911FBCA18BA2AF500B753A8 /* ViewController.m in Sources */,
+				816E10E518C067D1000F5CA2 /* FlickrPhotoCell.m in Sources */,
 				F911FBC118BA2AF500B753A8 /* AppDelegate.m in Sources */,
 				816E10B918BF16B7000F5CA2 /* Flickr.m in Sources */,
 				816E10BA18BF16B7000F5CA2 /* FlickrPhoto.m in Sources */,
